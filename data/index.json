@@ -1,0 +1,23 @@
+{
+ "schema": "price-aggregator/export@1",
+ "generated_at": "2026-11-11T15:03:23.889959Z",
+ "city": "syktyvkar",
+ "stores": [
+  {
+   "store": "magnit",
+   "file": "magnit/syktyvkar/index.json",
+   "count": 4984,
+   "collected_at": "2026-11-11T00:13:32.656Z",
+   "duration_sec": 1128,
+   "errors": 0
+  },
+  {
+   "store": "lenta",
+   "file": "lenta/syktyvkar/index.json",
+   "count": 30730,
+   "collected_at": "2026-11-10T23:34:21.519Z",
+   "duration_sec": 4139,
+   "errors": 0
+  }
+ ]
+}

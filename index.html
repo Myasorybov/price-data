@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>price-data — цены Сыктывкара в JSON</title>
+  <meta name="description" content="Снапшоты цен Магнита и Ленты в Сыктывкаре в формате JSON. Открытый репозиторий для мобильного приложения и других клиентов.">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem;
+      line-height: 1.55;
+    }
+    h1 { margin-bottom: .25rem; }
+    .sub { opacity: .7; margin-top: 0; }
+    code, pre { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+    pre {
+      padding: .9rem 1rem; border-radius: .5rem; overflow-x: auto;
+      background: rgba(127,127,127,.12);
+    }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+    .links a { display: inline-block; margin: .25rem .5rem .25rem 0; }
+  </style>
+</head>
+<body>
+  <h1>price-data</h1>
+  <p class="sub">Цены Магнита и Ленты в Сыктывкаре — JSON-снапшоты с открытым доступом.</p>
+
+  <h2>Быстрый старт</h2>
+  <pre><code>curl -s https://myasorybov.github.io/price-data/data/index.json</code></pre>
+
+  <h2>Данные</h2>
+  <table>
+    <thead><tr><th>Сеть</th><th>Точек</th><th>Товаров</th><th>Полок</th></tr></thead>
+    <tbody>
+      <tr><td>Магнит</td><td>1</td><td>4 984</td><td>26</td></tr>
+      <tr><td>Лента</td><td>3</td><td>30 730</td><td>300</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Ссылки</h2>
+  <p class="links">
+    <a href="data/index.json">Сводка (index.json)</a>
+    <a href="data/magnit/syktyvkar/index.json">Магнит — полки</a>
+    <a href="data/lenta/syktyvkar/index.json">Лента — полки</a>
+    <a href="data/magnit/syktyvkar/moloko.json">Пример полки</a>
+  </p>
+
+  <h2>Оговорки</h2>
+  <p>Данные собираются из неофициальных API сетей, раз в сутки. Снапшот отражает
+  цены на момент <code>collected_at</code>. Подробнее — в
+  <a href="README.md">README</a>.</p>
+</body>
+</html>

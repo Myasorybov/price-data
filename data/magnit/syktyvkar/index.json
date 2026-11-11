@@ -1,0 +1,200 @@
+{
+ "schema": "price-aggregator/export@1",
+ "store": "magnit",
+ "store_name": "Магнит",
+ "city": "syktyvkar",
+ "store_code": "113813",
+ "source": "https://magnit.ru",
+ "mode": "catalog",
+ "collected_at": "2026-11-11T00:13:32.656Z",
+ "duration_sec": 1128,
+ "products": 4984,
+ "categories": 549,
+ "skipped_categories": 0,
+ "errors": 0,
+ "total": 4984,
+ "shards": [
+  {
+   "file": "tolko-u-nas.json",
+   "category": "Только у нас",
+   "count": 510,
+   "bytes": 336979,
+   "sha256": "7e9006931e581fdd73009efb59d023615258dec1286e2694c047812f8be4acfe"
+  },
+  {
+   "file": "molochnyy-prilavok.json",
+   "category": "Молочный прилавок",
+   "count": 411,
+   "bytes": 285551,
+   "sha256": "522c5de12ec494407a3d3f2d3ad922447224c051702b0f374a32b230948ec6e2"
+  },
+  {
+   "file": "stoit-poprobovat.json",
+   "category": "Стоит попробовать",
+   "count": 384,
+   "bytes": 260845,
+   "sha256": "5165c45259d23d7086991ccecfa4870635f4c2c928bb3c71e7b4f7cd38f1fab9"
+  },
+  {
+   "file": "bakaleya.json",
+   "category": "Бакалея",
+   "count": 368,
+   "bytes": 244285,
+   "sha256": "c08f9abfa5e5a2224d649cb03aa4381b3b459d69934e80fc09b77bd44226a699"
+  },
+  {
+   "file": "sladosti.json",
+   "category": "Сладости",
+   "count": 348,
+   "bytes": 233430,
+   "sha256": "e01388ba3170688486af1d52d404182987b4fe8d0e148830d2b07d2f72fea504"
+  },
+  {
+   "file": "vygoda-po-krupnomu.json",
+   "category": "Выгода по-крупному",
+   "count": 344,
+   "bytes": 229823,
+   "sha256": "e953afc186f6bbeb75816e11d4e634756a96b9c137ab53540c8a8f00d8076a57"
+  },
+  {
+   "file": "gigiena-i-uhod.json",
+   "category": "Гигиена и уход",
+   "count": 326,
+   "bytes": 226501,
+   "sha256": "3c339981ce770c73fc92952461a5d9ba641810517902d10d2ff83e206f0cbf5d"
+  },
+  {
+   "file": "voda-i-napitki.json",
+   "category": "Вода и напитки",
+   "count": 283,
+   "bytes": 188722,
+   "sha256": "1addc5c0e6627eb9e7f966d2bc00cba4f91152ceacba9954d747e8553d926d34"
+  },
+  {
+   "file": "dlya-doma-i-ne-tolko.json",
+   "category": "Для дома и не только",
+   "count": 246,
+   "bytes": 172152,
+   "sha256": "92cf002ca362cc905b8a49d2de206cc257ac66ee3288addecc21ab97364593e1"
+  },
+  {
+   "file": "promokod-magnit.json",
+   "category": "Промокод МАГНИТ",
+   "count": 244,
+   "bytes": 164525,
+   "sha256": "82a205be2db2223922f089098a0fbb7a0b6091ac41e96b1eed53d535c9a6bfde"
+  },
+  {
+   "file": "dlya-detey.json",
+   "category": "Для детей",
+   "count": 232,
+   "bytes": 159116,
+   "sha256": "79b1902db664dc49765095ad610049c4ba816610691cb3cb6c7dc6532a31cbac"
+  },
+  {
+   "file": "chay-kofe-kakao.json",
+   "category": "Чай, кофе, какао",
+   "count": 229,
+   "bytes": 150355,
+   "sha256": "c3083d508a7269d5264b8879768ded5cc2c97097f40ab3109f43ed266fe4e58d"
+  },
+  {
+   "file": "ptica-myaso.json",
+   "category": "Птица, мясо",
+   "count": 172,
+   "bytes": 117235,
+   "sha256": "64119e6c5d8db2db08c0cf113c9a2d01222dd4f8a7d4d3fa48bb8743556679c3"
+  },
+  {
+   "file": "dlya-zhivotnyh.json",
+   "category": "Для животных",
+   "count": 169,
+   "bytes": 118671,
+   "sha256": "e023fe2cf668809d7515785b561e55353403c2cd2888c0daaec3be42b4908a49"
+  },
+  {
+   "file": "pitanie-v-balanse.json",
+   "category": "Питание в балансе",
+   "count": 164,
+   "bytes": 113285,
+   "sha256": "a82bfbe47d97f9c01f30eb4114980cb2047292700d746e5778e534a6e2c4c494"
+  },
+  {
+   "file": "zamorozka.json",
+   "category": "Заморозка",
+   "count": 123,
+   "bytes": 84638,
+   "sha256": "b912f5fdcf0cd36f61ddd6f935cf2d5ba19556e90fa8eb2807800116e346bc5c"
+  },
+  {
+   "file": "konservy.json",
+   "category": "Консервы",
+   "count": 66,
+   "bytes": 43203,
+   "sha256": "7b7788be3ae863e39ea341bb8b3800488b0d1b012d19eb00773b272ae4587881"
+  },
+  {
+   "file": "polka-nahodok.json",
+   "category": "Полка находок",
+   "count": 63,
+   "bytes": 40868,
+   "sha256": "656564dee2b77a3d5232ca7578f566ceb15a763c6ec17691da30b28eddf29544"
+  },
+  {
+   "file": "ovoschi-i-frukty.json",
+   "category": "Овощи и фрукты",
+   "count": 62,
+   "bytes": 40173,
+   "sha256": "3b5939282335c960b27e0bc22a75d389ae7ff1b4caeb223e30a57eec70481d89"
+  },
+  {
+   "file": "ryba-moreprodukty.json",
+   "category": "Рыба, морепродукты",
+   "count": 61,
+   "bytes": 42599,
+   "sha256": "f488838f03c7cc4225460aa6da160b641e600a1b742b4c19f0c24144848671db"
+  },
+  {
+   "file": "gotovaya-eda.json",
+   "category": "Готовая еда",
+   "count": 56,
+   "bytes": 36522,
+   "sha256": "5b15488b0caacce54944a562f9d3c741acd7eb78afe7ad65acf6147fad6f2bc1"
+  },
+  {
+   "file": "hleb-i-vypechka.json",
+   "category": "Хлеб и выпечка",
+   "count": 55,
+   "bytes": 36478,
+   "sha256": "6d0e1c1847ef24b408bfd01bee412c3e1f07c5d453faf9c262bf8e09502496a0"
+  },
+  {
+   "file": "sneki.json",
+   "category": "Снеки",
+   "count": 33,
+   "bytes": 21702,
+   "sha256": "2de7f9e09ac963a709b2f76f61cb95eadcbee97819fc68ef147e93586d7859ff"
+  },
+  {
+   "file": "alkogol.json",
+   "category": "Алкоголь",
+   "count": 18,
+   "bytes": 12760,
+   "sha256": "394894d54f8310c5e5863a48b3be3dbc8ea8738daca052dbabba5d479b846a22"
+  },
+  {
+   "file": "prochee.json",
+   "category": "Прочее",
+   "count": 15,
+   "bytes": 8997,
+   "sha256": "89a471fa053c414f5727f0500b05b9a05363a68cd24059d1efe4405b0d00618d"
+  },
+  {
+   "file": "chto-esche-interesnogo.json",
+   "category": "Что ещё интересного",
+   "count": 2,
+   "bytes": 1585,
+   "sha256": "1fb3569de38f7c3eeb70f980cd6ba2bac03b7f112e4bc7692696305a9349cc56"
+  }
+ ]
+}

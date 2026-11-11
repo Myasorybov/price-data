@@ -1,0 +1,2118 @@
+{
+ "schema": "price-aggregator/export@1",
+ "store": "lenta",
+ "store_name": "Лента",
+ "city": "syktyvkar",
+ "store_code": "3587,3615,5357",
+ "source": "https://lenta.com",
+ "mode": "catalog",
+ "collected_at": "2026-11-10T23:34:21.519Z",
+ "duration_sec": 4139,
+ "products": 30730,
+ "categories": 651,
+ "skipped_categories": 0,
+ "errors": 0,
+ "total": 30730,
+ "shards": [
+  {
+   "file": "povsednevnaya-odezhda.json",
+   "category": "Повседневная одежда",
+   "count": 1186,
+   "bytes": 690333,
+   "sha256": "83ef7bb14e6b90639e149dcc7cca8726845f1f98069bc1904326302795baaec4"
+  },
+  {
+   "file": "tovary-dlya-zhivotnyh.json",
+   "category": "Товары для животных",
+   "count": 1177,
+   "bytes": 746706,
+   "sha256": "65f906a581d59f4aaa1525eac70b52b0cddf101025efc3a81808e48556467664"
+  },
+  {
+   "file": "tolko-v-lente.json",
+   "category": "Только в Ленте",
+   "count": 1080,
+   "bytes": 601968,
+   "sha256": "f957640cd083a722d3de476b7651c9c551c9bf57e48c6d199e9aad8e0928f70e"
+  },
+  {
+   "file": "koncervirovannye-ovoschi.json",
+   "category": "Конcервированные овощи",
+   "count": 532,
+   "bytes": 302958,
+   "sha256": "91b106c4e14e5a80c69ffc696ce407c5ef1874d9b35ec23255231479054b89a6"
+  },
+  {
+   "file": "sredstva-dlya-stirki.json",
+   "category": "Средства для стирки",
+   "count": 432,
+   "bytes": 255823,
+   "sha256": "ac65e230570c1b6bf3ceb4b540ab82461f0b066a1c0342dfcb8bb32b57d88ef1"
+  },
+  {
+   "file": "detskoe-pyure.json",
+   "category": "Детское пюре",
+   "count": 416,
+   "bytes": 253129,
+   "sha256": "8e9510ef044e3037c60d2a5bd466722641489b4df6532c7968ed22fe16488ab3"
+  },
+  {
+   "file": "chay.json",
+   "category": "Чай",
+   "count": 342,
+   "bytes": 192054,
+   "sha256": "3a299b50ee832132f48fea3ed88bc81b2d47f3e8c7bbef22021afee87579bcc5"
+  },
+  {
+   "file": "mylo.json",
+   "category": "Мыло",
+   "count": 341,
+   "bytes": 191794,
+   "sha256": "2234d31bfaa911286d7d3a45b997933d8074155fae320b6b504ceef6c721c1e2"
+  },
+  {
+   "file": "sredstva-dlya-zagara-zaschita-ot-solnca.json",
+   "category": "Средства для загара, защита от солнца",
+   "count": 338,
+   "bytes": 216931,
+   "sha256": "43da49e869abf05fff4b08aa713999d511c5e2701dbcd90186b9c9c4fb8f253c"
+  },
+  {
+   "file": "voda.json",
+   "category": "Вода",
+   "count": 317,
+   "bytes": 181235,
+   "sha256": "450cd832f969d67c0cbfda5952f607c7f3b8a3d90006e1cb753850f26e07d279"
+  },
+  {
+   "file": "dom-interer.json",
+   "category": "Дом, интерьер",
+   "count": 314,
+   "bytes": 182042,
+   "sha256": "b29c05514f2f527fadc0880c09b3e2bd97c96490afa14bb5cd1ae691f946b6c9"
+  },
+  {
+   "file": "sumki-chemodany.json",
+   "category": "Сумки, чемоданы",
+   "count": 311,
+   "bytes": 180508,
+   "sha256": "b06d5e3e171626b8e3715a9b076398be86ca655d60acf359933c5a85d143a6d0"
+  },
+  {
+   "file": "dekor-interera.json",
+   "category": "Декор интерьера",
+   "count": 310,
+   "bytes": 186897,
+   "sha256": "a35a7030a7f11589a7985e927b79a63e4c5ca66cf9a65f089e143261b2f0ed75"
+  },
+  {
+   "file": "osvezhiteli-vozduha.json",
+   "category": "Освежители воздуха",
+   "count": 298,
+   "bytes": 184524,
+   "sha256": "d7ef0a8eb60e41ffa0bc49ee67cfd760bfcd8b35696b25795d8742fe1f7056e1"
+  },
+  {
+   "file": "folga-pakety-plenka.json",
+   "category": "Фольга, пакеты, пленка",
+   "count": 290,
+   "bytes": 172440,
+   "sha256": "31b7dc7d8f07314c549729463d11cb383d2b4d398458e1e08d97749cd8089a05"
+  },
+  {
+   "file": "kofe-chay-kakao.json",
+   "category": "Кофе, чай, какао",
+   "count": 285,
+   "bytes": 167167,
+   "sha256": "aff02a8268aa17bf297e39b33e85659bf6f99ab86a9564992498b0bae14326c6"
+  },
+  {
+   "file": "alkogol.json",
+   "category": "Алкоголь",
+   "count": 283,
+   "bytes": 148236,
+   "sha256": "5f1e8427269aa034104f9c76b315bfff9620173ccd28435e995bce8769e08a57"
+  },
+  {
+   "file": "zhvachka-osvezhayuschie-konfety.json",
+   "category": "Жвачка, освежающие конфеты",
+   "count": 283,
+   "bytes": 167027,
+   "sha256": "3e26e8cd8cdd3830c8814447d3c3fd42ac9ba02bc51bfdd7957f6c97e79c4ab8"
+  },
+  {
+   "file": "vodka-nastoyki-balzamy.json",
+   "category": "Водка, настойки, бальзамы",
+   "count": 282,
+   "bytes": 163009,
+   "sha256": "ea652d8c9c3157a28481d88b0bd55694cd6bc56668300803429cf565f5702c65"
+  },
+  {
+   "file": "syry.json",
+   "category": "Сыры",
+   "count": 273,
+   "bytes": 149032,
+   "sha256": "f3340c7c00f27115ca859d0ed7d59b3131dd034b76ca749441647514c7d4db88"
+  },
+  {
+   "file": "gotovoe-testo-lapsha.json",
+   "category": "Готовое тесто, лапша",
+   "count": 273,
+   "bytes": 160009,
+   "sha256": "4a16fca557963cfefe8940a40a224f16c7d6353b16ffc5784343dafde5a865fc"
+  },
+  {
+   "file": "makarony-krupy-muka.json",
+   "category": "Макароны, крупы, мука",
+   "count": 271,
+   "bytes": 153951,
+   "sha256": "a23c2136652e3c0d313ba58ff1fbd667b85e8d11592605a9ffccda280eadbbf6"
+  },
+  {
+   "file": "morozhenoe.json",
+   "category": "Мороженое",
+   "count": 271,
+   "bytes": 175293,
+   "sha256": "b4e400657d20dc3157ab93ef59d3f2b27b38ef5f2d238dc7edf463c33df19800"
+  },
+  {
+   "file": "dlya-sporta-otdyha-avto.json",
+   "category": "Для спорта, отдыха, авто",
+   "count": 264,
+   "bytes": 165673,
+   "sha256": "481a2b073d0cb58e8fa780de92856f5f40ca4bc2a01a71f22bdf203665303a61"
+  },
+  {
+   "file": "tovary-dlya-prazdnika.json",
+   "category": "Товары для праздника",
+   "count": 260,
+   "bytes": 160675,
+   "sha256": "f8210526fea0281c09bbcfe3db0a5eea8e7c4c1a4ec18e63e535d6aa4f6c2b0d"
+  },
+  {
+   "file": "moloko.json",
+   "category": "Молоко",
+   "count": 255,
+   "bytes": 148807,
+   "sha256": "d414a07233b2c65e2b298c8ae468f6f5154784a86eba512b66dc7099300b2edf"
+  },
+  {
+   "file": "orehi.json",
+   "category": "Орехи",
+   "count": 255,
+   "bytes": 134969,
+   "sha256": "281b2563d81bfe92370de80097be39391263c723e793f7d0bb9aba9748f10788"
+  },
+  {
+   "file": "varenye-kolbasy-do-50.json",
+   "category": "Вареные колбасы: до -50%",
+   "count": 252,
+   "bytes": 150103,
+   "sha256": "931a8f7278a47403ecfbc5c9fef5fc8839b0e351f71677fd2473b96fef6d55dc"
+  },
+  {
+   "file": "udobreniya-grunt-zaschita-rasteniy.json",
+   "category": "Удобрения, грунт, защита растений",
+   "count": 251,
+   "bytes": 160328,
+   "sha256": "cc80c1b611402f5decbae8c418565d5d2252988c22047ab0a1d9c1d09e591e2e"
+  },
+  {
+   "file": "upakovka-podarkov-otkrytki.json",
+   "category": "Упаковка подарков, открытки",
+   "count": 244,
+   "bytes": 151006,
+   "sha256": "011d50e7920a8f729e52d373206602c0ddbf984265602a4bd557751f5fa466c1"
+  },
+  {
+   "file": "hranenie-poryadok-glazhka.json",
+   "category": "Хранение, порядок, глажка",
+   "count": 243,
+   "bytes": 151318,
+   "sha256": "947d8cec8aae5bbea5eebda8a5faec5826222486a8e1fce254390c664d89e882"
+  },
+  {
+   "file": "zhenskaya-gigiena.json",
+   "category": "Женская гигиена",
+   "count": 243,
+   "bytes": 150135,
+   "sha256": "2e595cb52b9c1f8a0cbca4a71a0788ee06cb7be408538f23294119751000c05f"
+  },
+  {
+   "file": "sneki.json",
+   "category": "Снеки",
+   "count": 238,
+   "bytes": 132650,
+   "sha256": "52b48267cbe474eb94f126e2eede4ab8e2171e633b4f67ee91ef0b2ad601ca87"
+  },
+  {
+   "file": "makarony.json",
+   "category": "Макароны",
+   "count": 228,
+   "bytes": 127206,
+   "sha256": "666c454e0e2ffbf431a676430afbc16a09a3ab0d9080a770a14d659a1e001a8c"
+  },
+  {
+   "file": "kanctovary-hobbi-knigi.json",
+   "category": "Канцтовары, хобби, книги",
+   "count": 227,
+   "bytes": 133683,
+   "sha256": "5c62df252c35e2f11c2484a92e41c286dd79f1d1f23bae0a4a7ebb28c6ce9e4c"
+  },
+  {
+   "file": "syrki-pudingi-deserty.json",
+   "category": "Сырки, пудинги, десерты",
+   "count": 225,
+   "bytes": 141638,
+   "sha256": "eaaa18ab8a1a83e54c1824cbfb85f1de084dee86c3adfdb32fc0cfe58a6fbdb0"
+  },
+  {
+   "file": "avtotovary.json",
+   "category": "Автотовары",
+   "count": 223,
+   "bytes": 129418,
+   "sha256": "be6d628a17608153bec3b3c7f5ad28f6d5eb958ebcd27b3f5fecfd00c6211db8"
+  },
+  {
+   "file": "sportivnoe-pitanie.json",
+   "category": "Спортивное питание",
+   "count": 218,
+   "bytes": 133897,
+   "sha256": "81323951b8eab15722ad48ec0b28952401e77c7ce7a22be336b4868c07f8411a"
+  },
+  {
+   "file": "myaso-i-ptica.json",
+   "category": "Мясо и птица",
+   "count": 210,
+   "bytes": 117629,
+   "sha256": "c7bf57fc666a706a28dd26bcc013eae365100717d105b84cbc504462bf6312d4"
+  },
+  {
+   "file": "sousy-zapravki-marinady.json",
+   "category": "Соусы, заправки, маринады",
+   "count": 210,
+   "bytes": 118856,
+   "sha256": "8dc3abc523b6c46438271005db0d0ac8d6198ef63da2ecba2c8a29b8693c270b"
+  },
+  {
+   "file": "torty-pirozhnye.json",
+   "category": "Торты, пирожные",
+   "count": 207,
+   "bytes": 115795,
+   "sha256": "e41f6043b5f71a6cccbd02ca9398d2e297c68f6495c59470ec9bb4f0faf068f8"
+  },
+  {
+   "file": "kashi.json",
+   "category": "Каши",
+   "count": 204,
+   "bytes": 120328,
+   "sha256": "3b52114009678c9f817cb99b6fbb4c6b55aec8ef7a9c3dc6558c9b1195b1a359"
+  },
+  {
+   "file": "maslo-mayonez-sousy-specii.json",
+   "category": "Масло, майонез, соусы, специи",
+   "count": 201,
+   "bytes": 117357,
+   "sha256": "466886c7cfaf79e40c53421e005b910d2b27a20afc7957a7306989df8d8a3cbc"
+  },
+  {
+   "file": "kolbasy-delikatesy.json",
+   "category": "Колбасы, деликатесы",
+   "count": 198,
+   "bytes": 117834,
+   "sha256": "4b8636a139517f3666359f119e2f3c47004cd13652b84c357f72ae72553574ea"
+  },
+  {
+   "file": "podguzniki.json",
+   "category": "Подгузники",
+   "count": 196,
+   "bytes": 113732,
+   "sha256": "e7cc462b889929c5ffe4cc115346f34b53263bafb8320448caaf6932a461e478"
+  },
+  {
+   "file": "slivki.json",
+   "category": "Сливки",
+   "count": 195,
+   "bytes": 115681,
+   "sha256": "54230f62b2242d40865feeabd963ab110d333a0b07df9703271f4ef294623241"
+  },
+  {
+   "file": "sladosti.json",
+   "category": "Сладости",
+   "count": 192,
+   "bytes": 111527,
+   "sha256": "dc8f37275d1a0488392aed291c27f7c6ef9ef9d46f5771ca84ec429a70929e29"
+  },
+  {
+   "file": "bytovaya-tehnika.json",
+   "category": "Бытовая техника",
+   "count": 191,
+   "bytes": 106781,
+   "sha256": "ceb4c06ca5e3c186f758c2a76c87b52d96487b5485667fe6b1dba74dd9adab6c"
+  },
+  {
+   "file": "napitki.json",
+   "category": "Напитки",
+   "count": 190,
+   "bytes": 109985,
+   "sha256": "f898c39d9bac7f78ad14174e075d38497226d0b85199c446687a2cff71e105d9"
+  },
+  {
+   "file": "postelnye-prinadlezhnosti.json",
+   "category": "Постельные принадлежности",
+   "count": 189,
+   "bytes": 123627,
+   "sha256": "d19a72304f68fede8e49bd9e1a976aafcac1ee4dfd1346017a2501b463c6640d"
+  },
+  {
+   "file": "kukuruza-goroshek-fasol.json",
+   "category": "Кукуруза, горошек, фасоль",
+   "count": 185,
+   "bytes": 106169,
+   "sha256": "e9838f28c5f1cca3040c4f76fcda97ae74e965f6f667baa4d7cc35ca51951966"
+  },
+  {
+   "file": "cvety-rasteniya.json",
+   "category": "Цветы, растения",
+   "count": 181,
+   "bytes": 110602,
+   "sha256": "63a67d9184e1fc4157c79a1c62536d78bbe530abefb51b937da8f77e8f2c7412"
+  },
+  {
+   "file": "uhod-za-obuvyu-odezhdoy.json",
+   "category": "Уход за обувью, одеждой",
+   "count": 180,
+   "bytes": 110218,
+   "sha256": "fd7983e5eca7a764b1bd87fa6c1f006d33e79a6297365ca3801ef18fe0a729d0"
+  },
+  {
+   "file": "soki-nektary-smuzi.json",
+   "category": "Соки, нектары, смузи",
+   "count": 177,
+   "bytes": 97529,
+   "sha256": "530f537df4429aa1670da2c85e932efddea452073d854114815258327a6381c9"
+  },
+  {
+   "file": "detskaya-bytovaya-himiya.json",
+   "category": "Детская бытовая химия",
+   "count": 171,
+   "bytes": 105774,
+   "sha256": "3318c09655dd3b577cd32eb572c5914bcb82a7c1e86f21f97def15360247a868"
+  },
+  {
+   "file": "kuhonnye-aksessuary-emkosti.json",
+   "category": "Кухонные аксессуары, емкости",
+   "count": 170,
+   "bytes": 107909,
+   "sha256": "9d2fba762483f2fca48f1994f4d20e47a6bffbcd0d7cbe664bf81b2311b1a0c8"
+  },
+  {
+   "file": "vermuty-likery-aperitivy.json",
+   "category": "Вермуты, ликеры, аперитивы",
+   "count": 170,
+   "bytes": 101247,
+   "sha256": "5144fda4a70595de935c118242c633e269e9e21f665d435a31e7c552a12f4f62"
+  },
+  {
+   "file": "hlebcy-krekery.json",
+   "category": "Хлебцы, крекеры",
+   "count": 166,
+   "bytes": 96124,
+   "sha256": "142a2074c415c931d4a409fe713294df38a26b333f8f671f6709d25912694c56"
+  },
+  {
+   "file": "sport-i-otdyh.json",
+   "category": "Спорт и отдых",
+   "count": 161,
+   "bytes": 96668,
+   "sha256": "07fe48f0322b68d555e885a3ce37a17652f5c37a70f9d0bbeba2aeac036077f7"
+  },
+  {
+   "file": "kuhnya.json",
+   "category": "Кухня",
+   "count": 157,
+   "bytes": 93127,
+   "sha256": "4b264420fa16d92c4df6bbe1fb589756336a8437393cc61b1879b508d98bd763"
+  },
+  {
+   "file": "ptica.json",
+   "category": "Птица",
+   "count": 155,
+   "bytes": 87198,
+   "sha256": "33c685c72e0658476d057102609b6c83d96d2a7da8905081054aefae18de7cf7"
+  },
+  {
+   "file": "chulochno-nosochnye-izdeliya.json",
+   "category": "Чулочно-носочные изделия",
+   "count": 155,
+   "bytes": 95473,
+   "sha256": "f54d21eb44f81bd3fb3853dabff34a07a0e944ea07775628bd67d88818a9314c"
+  },
+  {
+   "file": "gotovim-legko-do-55.json",
+   "category": "Готовим легко: до -55%",
+   "count": 154,
+   "bytes": 90838,
+   "sha256": "ed3a42d27908de2bda1374b3f5e86ef83576f0800a1d7cfdb3d04ce3065f42c2"
+  },
+  {
+   "file": "zavtraki.json",
+   "category": "Завтраки",
+   "count": 154,
+   "bytes": 89680,
+   "sha256": "064ac05b59a39544237f1fb6500f84dce1b60e903a5759c7f27f2901aab1e0ed"
+  },
+  {
+   "file": "rybnye-konservy.json",
+   "category": "Рыбные консервы",
+   "count": 153,
+   "bytes": 87897,
+   "sha256": "1f7e0eb6bb27285ed5ce4b14db224e924bf1e9a9fe8e3b868a980f6fe05cca2d"
+  },
+  {
+   "file": "kola-soderzhaschie-napitki.json",
+   "category": "Кола-содержащие напитки",
+   "count": 152,
+   "bytes": 91566,
+   "sha256": "1bb8891fde3dca23b5f36fc9384a62feccae4066fdbd360ca8df869cf2bfa648"
+  },
+  {
+   "file": "supy.json",
+   "category": "Супы",
+   "count": 151,
+   "bytes": 80949,
+   "sha256": "c5b965922ce045c9ba3215816a5ee6f1b1e49f53af8f52e91d63777d78958594"
+  },
+  {
+   "file": "zamorozhennye-ovoschi-i-yagody.json",
+   "category": "Замороженные овощи и ягоды",
+   "count": 150,
+   "bytes": 89272,
+   "sha256": "bd21756ca63efd30f8c4d30e87467eb92ae73db82f6cb569b0e224e9fd046cbe"
+  },
+  {
+   "file": "olivki-masliny.json",
+   "category": "Оливки, маслины",
+   "count": 148,
+   "bytes": 82833,
+   "sha256": "41748445d6d345eaefde315f7af1f2cdf7817924581abd714683a66a24d5cba8"
+  },
+  {
+   "file": "govyadina.json",
+   "category": "Говядина",
+   "count": 147,
+   "bytes": 82101,
+   "sha256": "54b387d5e033bd5b3f8b7e55745915bcf39edb63714b82a00370a1378619bde2"
+  },
+  {
+   "file": "svinina.json",
+   "category": "Свинина",
+   "count": 142,
+   "bytes": 79226,
+   "sha256": "01a71c4b8ee90d84e6130520f9d632550933ff9fece28dd3e2ada0658373f694"
+  },
+  {
+   "file": "plavlennye.json",
+   "category": "Плавленные",
+   "count": 140,
+   "bytes": 81570,
+   "sha256": "f922c7a7c5e9d9f94f1e38079719359fd6cec372b9e183f3df760db5dea4084d"
+  },
+  {
+   "file": "picca-shaurma-sendvichi.json",
+   "category": "Пицца, шаурма, сэндвичи",
+   "count": 138,
+   "bytes": 78648,
+   "sha256": "424370654676f47e924b5635227abef3b9450bdd43dd5ee8b958b7b9975b0c91"
+  },
+  {
+   "file": "knigi-zhurnaly-kalendari.json",
+   "category": "Книги, журналы, календари",
+   "count": 138,
+   "bytes": 76067,
+   "sha256": "02eff0783637881541a27c0e7942468b491f93466671da148d44ce8d2f936d36"
+  },
+  {
+   "file": "brite-depilyaciya.json",
+   "category": "Бритье, депиляция",
+   "count": 138,
+   "bytes": 79416,
+   "sha256": "b035b667c18e2c84fc6d026120f386c0349f228c8cea18df2a543b335735596b"
+  },
+  {
+   "file": "gotovaya-eda.json",
+   "category": "Готовая еда",
+   "count": 137,
+   "bytes": 75698,
+   "sha256": "457af7c0fce9eef98faee9af88d8cc36746baba0144a2697654356a50c69f984"
+  },
+  {
+   "file": "pelmeni-i-vareniki.json",
+   "category": "Пельмени и вареники",
+   "count": 136,
+   "bytes": 78126,
+   "sha256": "75f68afa6c868eeeb8fdea9f4e5730b57a035c8b79c09b9261869b955fe88412"
+  },
+  {
+   "file": "smetana.json",
+   "category": "Сметана",
+   "count": 135,
+   "bytes": 74238,
+   "sha256": "09b653b628cb56e6ce2dc62c3e372d15978068cf9647d3afb55c914d696caa04"
+  },
+  {
+   "file": "vino.json",
+   "category": "Вино",
+   "count": 132,
+   "bytes": 69966,
+   "sha256": "19c13c1e588bcb7551ff4dfbdd0da32caa4264136729173146534fdd6018d2ed"
+  },
+  {
+   "file": "barbekyu-i-gril.json",
+   "category": "Барбекю и гриль",
+   "count": 132,
+   "bytes": 76596,
+   "sha256": "b491c009866e44d085c59e6e921e50503ef359939fcb9abd2664e9aa11f092bd"
+  },
+  {
+   "file": "tvorozhnye.json",
+   "category": "Творожные",
+   "count": 131,
+   "bytes": 76296,
+   "sha256": "b0773aefbe201453cbd8c97e05cff180acfa463fd204f0b5e9af094d4bdde7a2"
+  },
+  {
+   "file": "sezonnyy-assortiment.json",
+   "category": "Сезонный ассортимент",
+   "count": 128,
+   "bytes": 73914,
+   "sha256": "147ccc503a687909ce3a49d18791bbca28610447d06ed6ef8d4f47e96e445dea"
+  },
+  {
+   "file": "varene-dzhem.json",
+   "category": "Варенье, джем",
+   "count": 128,
+   "bytes": 70651,
+   "sha256": "edf13e61c9c3a87df5b1b9fce4f43e16072986facafdd340be13e42eae452063"
+  },
+  {
+   "file": "ryba-zamorozhennaya.json",
+   "category": "Рыба замороженная",
+   "count": 127,
+   "bytes": 74908,
+   "sha256": "c6cbe98922a570ad4f7b4ea8f7457d71f2bc4d730a41aa015e888f540f387cdd"
+  },
+  {
+   "file": "suhofrukty.json",
+   "category": "Сухофрукты",
+   "count": 125,
+   "bytes": 63618,
+   "sha256": "7f65428c5b811082f404dbf0ecc0c5aac4c30bb0afdbd429db550a82fb16cf4f"
+  },
+  {
+   "file": "uhod-za-rukami-nogami.json",
+   "category": "Уход за руками, ногами",
+   "count": 120,
+   "bytes": 73813,
+   "sha256": "91ffd512ba1f38152560196046e4e02241b5fb9c721bd32d34e4c7ab9b8f0852"
+  },
+  {
+   "file": "dlya-zdorovya-pitomca.json",
+   "category": "Для здоровья питомца",
+   "count": 119,
+   "bytes": 70466,
+   "sha256": "f34ab58c6ad2680411f0ef792cc683aa3c76f4b2b612cd733f6dd47dc1982a61"
+  },
+  {
+   "file": "mayonez.json",
+   "category": "Майонез",
+   "count": 118,
+   "bytes": 64129,
+   "sha256": "17f3c9af26ac22b01284891cf52212c0ce1d6dd049d3a2e9176597b43d872f4d"
+  },
+  {
+   "file": "vtorye-blyuda-garniry.json",
+   "category": "Вторые блюда, гарниры",
+   "count": 115,
+   "bytes": 68802,
+   "sha256": "46572b6702bf36b2167694e7a0f6ffb3c5bd7598b7ac4bb04f82c9824046f919"
+  },
+  {
+   "file": "fruktovaya-konservaciya.json",
+   "category": "Фруктовая консервация",
+   "count": 115,
+   "bytes": 66877,
+   "sha256": "b130ff82634940238c0aece7551fed9344d1709b61af7bd3bfcc175962eb14cd"
+  },
+  {
+   "file": "yayca.json",
+   "category": "Яйца",
+   "count": 115,
+   "bytes": 62990,
+   "sha256": "7f7b5b4decea3ddb51ee84de46d8d341cd3bf55465b65158a978c7d2efbca79c"
+  },
+  {
+   "file": "bez-laktozy.json",
+   "category": "Без лактозы",
+   "count": 114,
+   "bytes": 71442,
+   "sha256": "dda88d445f61eb659cef95c23eb16bb67db43b5dbf28d8f9e797dad8041241c0"
+  },
+  {
+   "file": "rom-dzhin-tekila.json",
+   "category": "Ром, джин, текила",
+   "count": 114,
+   "bytes": 63385,
+   "sha256": "733303bdeda7fd7ab97fece5e571017dc1e796d1c7a8a5affc8d4e10867895e6"
+  },
+  {
+   "file": "korm-dlya-koshek.json",
+   "category": "Корм для кошек",
+   "count": 113,
+   "bytes": 71406,
+   "sha256": "51d738386077969a1e3516d156fddfbe9e26a95216e1caa3da2ef1cfcddd9783"
+  },
+  {
+   "file": "pryaniki-vafli-baranki.json",
+   "category": "Пряники, вафли, баранки",
+   "count": 110,
+   "bytes": 62781,
+   "sha256": "4b74c331bb0e18ff87b498a4b14246c019787a3b3337112f9e99e19ca3734be7"
+  },
+  {
+   "file": "med.json",
+   "category": "Мед",
+   "count": 110,
+   "bytes": 61577,
+   "sha256": "66ba5cb2d7fcac5c281129d73f04dd82a683c37867f978c5c53defccafe893e7"
+  },
+  {
+   "file": "detskaya-gigiena-do-60.json",
+   "category": "Детская гигиена: до -60%",
+   "count": 109,
+   "bytes": 64720,
+   "sha256": "21e71b14190c14c70f183aa75c13d7f5435a9f9ba008f5d0e49c143199d205c9"
+  },
+  {
+   "file": "molochnye-produkty.json",
+   "category": "Молочные продукты",
+   "count": 108,
+   "bytes": 59882,
+   "sha256": "5e6cbd1f8accb7e21c73fe3cec49bd3e613917d86a15efe2b31191002746e7a1"
+  },
+  {
+   "file": "kislomolochnye-pitevye-produkty.json",
+   "category": "Кисломолочные питьевые продукты",
+   "count": 106,
+   "bytes": 66738,
+   "sha256": "2736ed01c31cfd8b914a230506e603e2694fc16f9a36c5dcba274a9f93a1dd43"
+  },
+  {
+   "file": "zapas-morozhenogo-do-40.json",
+   "category": "Запас мороженого: до 40%",
+   "count": 105,
+   "bytes": 63592,
+   "sha256": "7a6bd255b3cb7cfd67fe91a432f2cae4d5ab92f81b5d9f8a25a98046d8dd3f43"
+  },
+  {
+   "file": "tualety-i-prinadlezhnosti.json",
+   "category": "Туалеты и принадлежности",
+   "count": 102,
+   "bytes": 64955,
+   "sha256": "308beeb27b56618a45cd7a5fa2655ea8c12213ed8937d2a2248b0f7d2cbd90a1"
+  },
+  {
+   "file": "narezka-iz-kolbas-i-delikatesov.json",
+   "category": "Нарезка из колбас и деликатесов",
+   "count": 101,
+   "bytes": 63622,
+   "sha256": "f5c34893c8121986296cdfd07ddd87280d6a43f4404a26e85516a5ae0bc0fd73"
+  },
+  {
+   "file": "uhod-za-polostyu-rta.json",
+   "category": "Уход за полостью рта",
+   "count": 101,
+   "bytes": 61740,
+   "sha256": "275be0eb20a6d00dec806c7e225896e86b4ded8ca0b0227dc8b604d8c44516af"
+  },
+  {
+   "file": "yagody.json",
+   "category": "Ягоды",
+   "count": 96,
+   "bytes": 55745,
+   "sha256": "c2ea7b86fd06513c960fb8ccf5a59beb3c9aab6524f0bbdca4a2b6eae48929fb"
+  },
+  {
+   "file": "uhod-gigiena.json",
+   "category": "Уход, гигиена",
+   "count": 95,
+   "bytes": 58052,
+   "sha256": "9c5de45d366afb73d80cba5a7df476ee407e0b55b814437f4c9f3ef66fb9d0f9"
+  },
+  {
+   "file": "detskoe-pitanie.json",
+   "category": "Детское питание",
+   "count": 94,
+   "bytes": 55970,
+   "sha256": "f388a3cc3d48f11eb3a58886d0a9bf69fa49c50c841febbb04c561bd18a94a45"
+  },
+  {
+   "file": "konyak-brendi.json",
+   "category": "Коньяк, бренди",
+   "count": 94,
+   "bytes": 49398,
+   "sha256": "9059b99b91e67c15008288bcea4b189dc198d186c579985edb44c6e8aea8f797"
+  },
+  {
+   "file": "naggetsy-kotlety.json",
+   "category": "Наггетсы, котлеты",
+   "count": 94,
+   "bytes": 52662,
+   "sha256": "8c112193d55cb21ef058481350d3b6eeca6f16a35568c8f5206abce25ca13b40"
+  },
+  {
+   "file": "viski.json",
+   "category": "Виски",
+   "count": 94,
+   "bytes": 50642,
+   "sha256": "41957682bf437fad528dd77a31bf4556d34a2773713bdf58340d705c7f7cff7e"
+  },
+  {
+   "file": "kolbasa-sosiski.json",
+   "category": "Колбаса, сосиски",
+   "count": 92,
+   "bytes": 50563,
+   "sha256": "68b15738ae40b8990c834a69148645766e9157e392f1a59292119ca08a628f80"
+  },
+  {
+   "file": "dacha-i-sad.json",
+   "category": "Дача и сад",
+   "count": 92,
+   "bytes": 52036,
+   "sha256": "5cca6f60d7ab6c1ea3a18475a8b8e8df1278daa534bc3ba74eef6d4f45da13dd"
+  },
+  {
+   "file": "mir-azii.json",
+   "category": "Мир Азии",
+   "count": 91,
+   "bytes": 51116,
+   "sha256": "d1d9821371f7e4ea93682fb9f9aeee5a4866e3c51dc1dc4a0d26e80e2cfacd2e"
+  },
+  {
+   "file": "inventar-dlya-uborki.json",
+   "category": "Инвентарь для уборки",
+   "count": 91,
+   "bytes": 56679,
+   "sha256": "bd7ee3f9b0314b416070c2986a559837bac889a1bd5746211032c2b4c461e83d"
+  },
+  {
+   "file": "dlya-detey.json",
+   "category": "Для детей",
+   "count": 90,
+   "bytes": 54690,
+   "sha256": "10ca992bf34a7b080305ecc97d9c42c0f946d4cd6aaa6e7b0e9fe0d8fae264a8"
+  },
+  {
+   "file": "posuda-dlya-prigotovleniya-edy.json",
+   "category": "Посуда для приготовления еды",
+   "count": 89,
+   "bytes": 55989,
+   "sha256": "00a4316447a30b2dc5e14171720b73836c5a33b727f30d6c99c93595b1ed8034"
+  },
+  {
+   "file": "maslo.json",
+   "category": "Масло",
+   "count": 89,
+   "bytes": 51371,
+   "sha256": "a8a08dbcbe0d925c6289cd83aa2bfceb9ec915d403de9efdd4a63610e3e510ec"
+  },
+  {
+   "file": "frukty.json",
+   "category": "Фрукты",
+   "count": 89,
+   "bytes": 44321,
+   "sha256": "4db444e4d833d6eee74045278321170e8b7151c6d5f2361e62bc4cdee5379c1f"
+  },
+  {
+   "file": "tovary-dlya-tvorchestva.json",
+   "category": "Товары для творчества",
+   "count": 89,
+   "bytes": 58833,
+   "sha256": "0f870fd9deef86b2f2615db6b515262697116cdfcdf139d75a30f9686ae641e0"
+  },
+  {
+   "file": "zamorozka.json",
+   "category": "Заморозка",
+   "count": 88,
+   "bytes": 50685,
+   "sha256": "555f188edbf4fb8acc58cb2dfd49cbf43084f07d0a2506d5a5574e6fca0e386a"
+  },
+  {
+   "file": "bele-kupalnye-kostyumy.json",
+   "category": "Белье, купальные костюмы",
+   "count": 88,
+   "bytes": 54548,
+   "sha256": "af608d8a63d13b1f5fcba1eb48f84c21d62a7b8c85db38742a807f48e1c165ab"
+  },
+  {
+   "file": "rossiyskie-vina.json",
+   "category": "Российские вина",
+   "count": 88,
+   "bytes": 53273,
+   "sha256": "6929fbf25a4b9b04e46ca3ad52e52185eba3c94e7514dc057e4ad51f1d813ff8"
+  },
+  {
+   "file": "korm-dlya-sobak.json",
+   "category": "Корм для собак",
+   "count": 88,
+   "bytes": 56167,
+   "sha256": "585426feccb770139e8fab654b4c424404495107172dd129ecd00a075508d22e"
+  },
+  {
+   "file": "rastitelnaya-produkciya.json",
+   "category": "Растительная продукция",
+   "count": 88,
+   "bytes": 56186,
+   "sha256": "59f717d101ba247684c0c6fe1fdca4f1a2527f4b83aeb9faa5d9eb42ae7c8f6c"
+  },
+  {
+   "file": "kashi-hlopya-myusli.json",
+   "category": "Каши, хлопья, мюсли",
+   "count": 87,
+   "bytes": 48945,
+   "sha256": "404fe758261c78e4a8abb9464c25e5e8aeb717a3f5206a4aed6dfd15e7d0952a"
+  },
+  {
+   "file": "gazirovka-limonady.json",
+   "category": "Газировка, лимонады",
+   "count": 87,
+   "bytes": 54239,
+   "sha256": "39d339595cf3e09d36b35dbdbbd62ff4a2f3e42435e014ba5a16db9bdc8f9007"
+  },
+  {
+   "file": "pivo.json",
+   "category": "Пиво",
+   "count": 86,
+   "bytes": 54548,
+   "sha256": "72b271c0e509ff0e4959a3d8ed9fb2967ff3a7abff7e70ab6a25284641685e74"
+  },
+  {
+   "file": "sidr-medovuha.json",
+   "category": "Сидр, медовуха",
+   "count": 86,
+   "bytes": 54628,
+   "sha256": "3ff65ea0369d2f6435351357c4415c0e56ee30770d46ee7b7e32ddcf24077061"
+  },
+  {
+   "file": "slivochnoe-maslo-margarin.json",
+   "category": "Сливочное масло, маргарин",
+   "count": 86,
+   "bytes": 50746,
+   "sha256": "fab5f5d5366096265d3920fd29f563aecf28fbba5050d5ac77325b5b2abcd68e"
+  },
+  {
+   "file": "batonchiki.json",
+   "category": "Батончики",
+   "count": 85,
+   "bytes": 51639,
+   "sha256": "d400ecae15dfb965c99f7aff5a3888e982be12a65c28e7e132a25b4181fd8fad"
+  },
+  {
+   "file": "semechki.json",
+   "category": "Семечки",
+   "count": 85,
+   "bytes": 49011,
+   "sha256": "6c29f50e84d9da64e6b60c26b953f7d5bee6e28ca0f15533eca8e0ab5b984861"
+  },
+  {
+   "file": "mnogo-belka.json",
+   "category": "Много белка",
+   "count": 84,
+   "bytes": 56175,
+   "sha256": "e2c08ac6c34193d83cf887a2ac510fc4bcba2d6122c773bbeb933c0bb830c40c"
+  },
+  {
+   "file": "sladkoe-i-muchnoe-bez-sahara.json",
+   "category": "Сладкое и мучное без сахара",
+   "count": 83,
+   "bytes": 53004,
+   "sha256": "83aa21d818e1460942b6d25615919d94a3039ee3dbef4e7ce921c995362d8358"
+  },
+  {
+   "file": "moreprodukty.json",
+   "category": "Морепродукты",
+   "count": 82,
+   "bytes": 48148,
+   "sha256": "78b1b0c9c74cd08af8c5f710744611061a4597981268e447e7c8f3b34ce9968d"
+  },
+  {
+   "file": "shampanskoe-igristye-vina.json",
+   "category": "Шампанское, игристые вина",
+   "count": 82,
+   "bytes": 47871,
+   "sha256": "3e25adf4c3123fbda387f0538de33442b40458211864ae590c4c75cdd6264167"
+  },
+  {
+   "file": "pechene-kreker.json",
+   "category": "Печенье, крекер",
+   "count": 81,
+   "bytes": 44075,
+   "sha256": "5a4fa380555adb4c0d4bf9bb243880410f298b8c3bf7ae6e89aadf58b95d41fe"
+  },
+  {
+   "file": "suhariki-grenki.json",
+   "category": "Сухарики, гренки",
+   "count": 80,
+   "bytes": 47499,
+   "sha256": "1c5a3ba6dbc41d3e5cdd59447da092fcb0fa611650eb341fb2fef1f78f5b15af"
+  },
+  {
+   "file": "podguzniki-i-pelenki.json",
+   "category": "Подгузники и пеленки",
+   "count": 79,
+   "bytes": 45520,
+   "sha256": "cec9cf51ce4e65193d426792b7e138bf917094786c751c8bd09601ff5f040316"
+  },
+  {
+   "file": "dezodoranty.json",
+   "category": "Дезодоранты",
+   "count": 79,
+   "bytes": 48263,
+   "sha256": "c3c24de2aef8f030b54a459f7651273408717e2583bed76085cfbd48d7276af6"
+  },
+  {
+   "file": "sredstva-dlya-mytya-posudy.json",
+   "category": "Средства для мытья посуды",
+   "count": 78,
+   "bytes": 50044,
+   "sha256": "347f9b09abf8541c7d7d9724c4b5b5fcbc9c22b4aa4a6242612b3c0c048fd724"
+  },
+  {
+   "file": "rastitelnye-bezlaktoznye-yogurty.json",
+   "category": "Растительные, безлактозные йогурты",
+   "count": 77,
+   "bytes": 46862,
+   "sha256": "ac0cf28746859f35b77a67f1acdf0047e0dafb3b2e109c1f3805c4a451b4ac80"
+  },
+  {
+   "file": "bolshie-upakovki.json",
+   "category": "Большие упаковки",
+   "count": 76,
+   "bytes": 45735,
+   "sha256": "d965502ac5beaa4b22d5ce860b84404e171169a1f6f959ab0681f1f687f6ad60"
+  },
+  {
+   "file": "s-plesenyu.json",
+   "category": "С плесенью",
+   "count": 76,
+   "bytes": 45344,
+   "sha256": "000a947be61e24c531f2d87cb2dfa7c91b0b408b901acfa4c2bd7085865844de"
+  },
+  {
+   "file": "salaty-i-zakuski.json",
+   "category": "Салаты и закуски",
+   "count": 75,
+   "bytes": 42247,
+   "sha256": "ee7bba9025ff5bb0dd97d22a706e4b1959fb99580a82eb047e72325ee1c7ae0b"
+  },
+  {
+   "file": "testo-vypechka-deserty.json",
+   "category": "Тесто, выпечка, десерты",
+   "count": 75,
+   "bytes": 42286,
+   "sha256": "4492cbe59a4bd6eeb5144811bd095904b13ad154c687886e974af86596f6ef41"
+  },
+  {
+   "file": "dlya-zhivotnyh.json",
+   "category": "Для животных",
+   "count": 75,
+   "bytes": 43651,
+   "sha256": "fb9c3e84d670173ab9b934a39787d311414d6cbd971d6ac710e0e5185482ac2c"
+  },
+  {
+   "file": "zakuski-ikra.json",
+   "category": "Закуски, икра",
+   "count": 72,
+   "bytes": 39624,
+   "sha256": "e3cee41e2cb5871d8bddca94bebab11cfd79d613f7d5b5bb46fe4437b51288cb"
+  },
+  {
+   "file": "pitevye-yogurty.json",
+   "category": "Питьевые йогурты",
+   "count": 72,
+   "bytes": 44769,
+   "sha256": "8fb9b1642b04f2376f7cf7855aeb4671a75e443aec4717c431a5a631ea0418f5"
+  },
+  {
+   "file": "gorchica-hren-adzhika.json",
+   "category": "Горчица, хрен, аджика",
+   "count": 71,
+   "bytes": 38252,
+   "sha256": "8247dee99a0e1756cd4609a7aed5c00f1aa09723f8c964637ab9562c5fe0199a"
+  },
+  {
+   "file": "holodnyy-chay-i-kofe.json",
+   "category": "Холодный чай и кофе",
+   "count": 71,
+   "bytes": 42591,
+   "sha256": "211c06fb6e9891e24b0b0b5f8fe53aa169f6a541beca96e24f99492b2d31cc2a"
+  },
+  {
+   "file": "konfety-drazhe.json",
+   "category": "Конфеты, драже",
+   "count": 70,
+   "bytes": 38997,
+   "sha256": "08728858a3310143aee8a5e31dc71b3d194d655dd1017ceee39ad8c6c6f282d8"
+  },
+  {
+   "file": "griby.json",
+   "category": "Грибы",
+   "count": 68,
+   "bytes": 35963,
+   "sha256": "6cfbca99c048246e37fce1728f5e021b0c2329cbeca4df917393482eb1f43b55"
+  },
+  {
+   "file": "igrushki-i-igry.json",
+   "category": "Игрушки и игры",
+   "count": 65,
+   "bytes": 38346,
+   "sha256": "d2bc1dfa9d78e7aab7542d33b815d6ab7b5665e017f9467e8d420832d539cc8f"
+  },
+  {
+   "file": "chipsy.json",
+   "category": "Чипсы",
+   "count": 63,
+   "bytes": 35830,
+   "sha256": "afcb921649c6db0f3cfdc995b005ce711245adb55d707cdcd1786a87d02a0a5c"
+  },
+  {
+   "file": "avtozapchasti-avtoprinadlezhnosti.json",
+   "category": "Автозапчасти, автопринадлежности",
+   "count": 63,
+   "bytes": 40735,
+   "sha256": "73ea77bad3c0836aefc46028fcf82027b7841f72aa34143203a62218cd93c9d9"
+  },
+  {
+   "file": "morsy-kompoty-kiseli.json",
+   "category": "Морсы, компоты, кисели",
+   "count": 63,
+   "bytes": 36364,
+   "sha256": "4bba86c8eb89705664d1b4956e74655fc9dccf94f88b3d5407604e906307c38c"
+  },
+  {
+   "file": "gustye-yogurty-i-tvorozhki.json",
+   "category": "Густые йогурты и творожки",
+   "count": 63,
+   "bytes": 40958,
+   "sha256": "f163c7e3b519deb2189fd56bf396b5ba8ffbc720d025210d261de40d11380a3d"
+  },
+  {
+   "file": "kakao-cikoriy-napitki.json",
+   "category": "Какао, цикорий, напитки",
+   "count": 62,
+   "bytes": 38162,
+   "sha256": "e7a35f092c0a1a7b2d085e91f2e6a1d62775417c4c4be60d0286a60462cf37df"
+  },
+  {
+   "file": "vareno-kopchenaya.json",
+   "category": "Варено-копченая",
+   "count": 62,
+   "bytes": 36136,
+   "sha256": "395a42c5d064eff5fd88199ff8027653b9333a80aaaa7ab5b8be7836b9d25150"
+  },
+  {
+   "file": "tverdye.json",
+   "category": "Твердые",
+   "count": 60,
+   "bytes": 34171,
+   "sha256": "bacbee13ac67840384a6dcf2cc091bf8d0eb575d4078a4d8a10dd6e5d52f79d7"
+  },
+  {
+   "file": "lenta-life.json",
+   "category": "Лента Life",
+   "count": 59,
+   "bytes": 34445,
+   "sha256": "3baab61484cdd7e9cf929e4342f7ad9fab908373b9e1aa2ad2100f10182cc6c9"
+  },
+  {
+   "file": "ekspluatacionnye-zhidkosti.json",
+   "category": "Эксплуатационные жидкости",
+   "count": 59,
+   "bytes": 37081,
+   "sha256": "93ff695833b2d3f90adf13d095e4af743f0a7c504daf065bc87044a4f3a7bdc6"
+  },
+  {
+   "file": "bumazhnaya-vatnaya-produkciya.json",
+   "category": "Бумажная, ватная продукция",
+   "count": 59,
+   "bytes": 34671,
+   "sha256": "c7699a2613a81ecaf504f3c1a016be35a6d81cea060f3fb7d60b8b176795bf4d"
+  },
+  {
+   "file": "ryba-delikatesy.json",
+   "category": "Рыба, деликатесы",
+   "count": 58,
+   "bytes": 33945,
+   "sha256": "66f37aef2048c474e50e4ddbe6933e97ae39035eecde4bcc8c6dd1934cd89a3b"
+  },
+  {
+   "file": "batareyki-lampochki-udliniteli.json",
+   "category": "Батарейки, лампочки, удлинители",
+   "count": 57,
+   "bytes": 33988,
+   "sha256": "b8b9059afc157d2f659ee421da7e5c1865b2523c101b2f2cc7555aea264ef847"
+  },
+  {
+   "file": "ovoschi-frukty.json",
+   "category": "Овощи, фрукты",
+   "count": 55,
+   "bytes": 34518,
+   "sha256": "ed053551d388a9f8b995bb995fddc4c25e3daa6684ae5aed12ab86b280ae56dd"
+  },
+  {
+   "file": "muka-smesi-dlya-vypechki.json",
+   "category": "Мука, смеси для выпечки",
+   "count": 55,
+   "bytes": 33519,
+   "sha256": "59b3a41451b458492b2dea1fc9b519c1b62a992936a6c86e68b9a9de78c29c74"
+  },
+  {
+   "file": "zdorovoe-pitanie.json",
+   "category": "Здоровое питание",
+   "count": 54,
+   "bytes": 30468,
+   "sha256": "90708cc274acbf77b01a8f65f3bb343472a832527227c300546e39f9cbe0fea8"
+  },
+  {
+   "file": "prazdnichnaya-atributika.json",
+   "category": "Праздничная атрибутика",
+   "count": 54,
+   "bytes": 33225,
+   "sha256": "d13daeb198c306fa4eef397781b711aeb468ce77c27dfe48541b1df33251a617"
+  },
+  {
+   "file": "syrokopchenaya.json",
+   "category": "Сырокопченая",
+   "count": 53,
+   "bytes": 30187,
+   "sha256": "f1b69d775a26d8951ec410c235fcd237a3f5cfa0a643337de1b7a54429280a01"
+  },
+  {
+   "file": "uhod-za-volosami.json",
+   "category": "Уход за волосами",
+   "count": 52,
+   "bytes": 32721,
+   "sha256": "55e2f9c824659c51a401f98cd02ddd81fe87b9c8b4fc66b36ea46a1b41c1336b"
+  },
+  {
+   "file": "gril-kopchenie.json",
+   "category": "Гриль, копчение",
+   "count": 52,
+   "bytes": 28983,
+   "sha256": "76bfc4b99947ff581821c9723457f6e3794f5fc71e90311d00d23d26516c6c02"
+  },
+  {
+   "file": "vetchina.json",
+   "category": "Ветчина",
+   "count": 52,
+   "bytes": 28398,
+   "sha256": "8238dd6534a271b2e06c1df77b7f013fc0a8005e6b51a03e23200506031140c0"
+  },
+  {
+   "file": "namazki-pashtety.json",
+   "category": "Намазки, паштеты",
+   "count": 51,
+   "bytes": 29171,
+   "sha256": "afa845bc72ab853044ffb71fc957d431dae8a215e5752cead7d688be195e08b4"
+  },
+  {
+   "file": "vatnye-diski-palochki.json",
+   "category": "Ватные диски, палочки",
+   "count": 51,
+   "bytes": 29376,
+   "sha256": "9b377c113b05ee68526789b5752e2e1fe4f5603dcde134ae76433fb33c93d54a"
+  },
+  {
+   "file": "dieticheskoe-pitanie.json",
+   "category": "Диетическое питание",
+   "count": 50,
+   "bytes": 29773,
+   "sha256": "2673254799ca3ae6534b7a4c6f984c6cb87a6fa1545b0ef33f61c3b35500713a"
+  },
+  {
+   "file": "bliny-oladi-syrniki.json",
+   "category": "Блины, оладьи, сырники",
+   "count": 50,
+   "bytes": 28107,
+   "sha256": "3bf64d053124c7091ead99f3a1da313b3bada80f94df832094e4b8730af25c36"
+  },
+  {
+   "file": "kofe.json",
+   "category": "Кофе",
+   "count": 49,
+   "bytes": 30175,
+   "sha256": "3dfed6bed97539bed32f1b89f6d38478aa010060348a1aa99ac6a2fd87645ae5"
+  },
+  {
+   "file": "rybnye-sneki.json",
+   "category": "Рыбные снеки",
+   "count": 49,
+   "bytes": 27494,
+   "sha256": "7899130b9cf218793f7784fc00d1866bd66f9073c5f955a5c64fe6e7f4fb3014"
+  },
+  {
+   "file": "kokteyli-energeticheskie-napitki.json",
+   "category": "Коктейли, энергетические напитки",
+   "count": 48,
+   "bytes": 34104,
+   "sha256": "5887de58e9930b5badde3868407fcd7a0acec78159b5ea9e2e89f6c20cc0adba"
+  },
+  {
+   "file": "preservy-iz-ryby.json",
+   "category": "Пресервы из рыбы",
+   "count": 46,
+   "bytes": 27986,
+   "sha256": "95f3bb75db0cdbf627cf248a1ca85be6a7a33d64f4620d612015b116eda1c0c2"
+  },
+  {
+   "file": "ryba-ikra-moreprodukty.json",
+   "category": "Рыба, икра, морепродукты",
+   "count": 44,
+   "bytes": 29299,
+   "sha256": "2c5c6d9e711c3c79566c700d35824fce0791b8987f87b99ded2ded65c15aeebd"
+  },
+  {
+   "file": "zakuski-i-solenya.json",
+   "category": "Закуски и соленья",
+   "count": 44,
+   "bytes": 25500,
+   "sha256": "bd10afda5ded127980ae5b1af353359eb9378606bd0debd572e91397e9a44eef"
+  },
+  {
+   "file": "led-osnovy-dlya-napitkov.json",
+   "category": "Лед, основы для напитков",
+   "count": 44,
+   "bytes": 28159,
+   "sha256": "47eb8f5e923b3a97793edf680d6516f49d2ac611c8e4a6b01c800fc035c6f0ed"
+  },
+  {
+   "file": "sladosti-dlya-detey.json",
+   "category": "Сладости для детей",
+   "count": 41,
+   "bytes": 25889,
+   "sha256": "16a8d3fbe371f4cbcea0428f7caf97c34f4c20cb37d41fa7ed35bbe2eece30fc"
+  },
+  {
+   "file": "dlya-malyshey.json",
+   "category": "Для малышей",
+   "count": 40,
+   "bytes": 24964,
+   "sha256": "5a00a6620fcfe5e950dfdbda61ffd1e33b76e9812aba325d62e59b8f42c59434"
+  },
+  {
+   "file": "zamorozhennye-polufabrikaty.json",
+   "category": "Замороженные полуфабрикаты",
+   "count": 39,
+   "bytes": 23658,
+   "sha256": "6614c25431c45127a9ee768d11b9396932a57c177342df54efb123ee93670863"
+  },
+  {
+   "file": "rybnye-i-myasnye-sneki.json",
+   "category": "Рыбные и мясные снеки",
+   "count": 39,
+   "bytes": 24824,
+   "sha256": "d0444378655e906b3538f9edda55b493b4e5b03898aadae265d8d946161e031d"
+  },
+  {
+   "file": "polutverdye.json",
+   "category": "Полутвердые",
+   "count": 39,
+   "bytes": 23171,
+   "sha256": "0f91fea75c6a98d3b23f43c9aa81035a362e081f71fa9b8511a3ea097199a092"
+  },
+  {
+   "file": "kulinariya.json",
+   "category": "Кулинария",
+   "count": 37,
+   "bytes": 20423,
+   "sha256": "67ffa1eba368bcce06d4aa59fa41251641c2dc8ca7744cf59e5b51c481c5a8f6"
+  },
+  {
+   "file": "picca-pirogi.json",
+   "category": "Пицца, пироги",
+   "count": 37,
+   "bytes": 21371,
+   "sha256": "3ce3ad9f69e13cb0789cf1453b2cda50d9d2f98d6e2652136a89d347c236a982"
+  },
+  {
+   "file": "maskarpone-rikotta.json",
+   "category": "Маскарпоне, рикотта",
+   "count": 37,
+   "bytes": 21252,
+   "sha256": "8e95233279879ef65193c93e18d1b6a89401273889d5760f7b1ecd5407697fcc"
+  },
+  {
+   "file": "seychas-sezon.json",
+   "category": "Сейчас сезон",
+   "count": 36,
+   "bytes": 20361,
+   "sha256": "2a15fb56de4083f14e9022184fbcdc2372d87722126866ddd7f6a6c990964fd3"
+  },
+  {
+   "file": "sardelki-shpikachki.json",
+   "category": "Сардельки, шпикачки",
+   "count": 36,
+   "bytes": 20615,
+   "sha256": "8355d341c3153c6468b6b1bbb60456951441bc4e928368e3c60bbda046766ebd"
+  },
+  {
+   "file": "lavash-lepeshki.json",
+   "category": "Лаваш, лепешки",
+   "count": 36,
+   "bytes": 19942,
+   "sha256": "ff2f44f00c544924c4a0bc811c3259e52b01307c7d59b881b129aff0babbd381"
+  },
+  {
+   "file": "bez-glyutena.json",
+   "category": "Без глютена",
+   "count": 35,
+   "bytes": 20074,
+   "sha256": "08588430cb8d247e0f18aafb828303557c53d154f32c7c5dde676df16ff60105"
+  },
+  {
+   "file": "kosmeticheskie-sredstva.json",
+   "category": "Косметические средства",
+   "count": 35,
+   "bytes": 23050,
+   "sha256": "02af5927bc327f26bb527c0b538fb82d9666a1f6dc8e27a5ccdf5733f306bf3f"
+  },
+  {
+   "file": "siropy-toppingi.json",
+   "category": "Сиропы, топпинги",
+   "count": 35,
+   "bytes": 19499,
+   "sha256": "306a004f03c3d0e18930ab1b37d873b65feb961be430f81d79b0fc5541103284"
+  },
+  {
+   "file": "sobstvennoe-proizvodstvo.json",
+   "category": "Собственное производство",
+   "count": 34,
+   "bytes": 20670,
+   "sha256": "cfcbf355a56b189542ccd7555b08884c393959f91ae9498d92baa33da8bbd538"
+  },
+  {
+   "file": "fitnes.json",
+   "category": "Фитнес",
+   "count": 33,
+   "bytes": 19057,
+   "sha256": "a14c20afa2151bfe201097c2713335f14c1d475f150157dbe5a7960aed911596"
+  },
+  {
+   "file": "ikra.json",
+   "category": "Икра",
+   "count": 33,
+   "bytes": 19133,
+   "sha256": "d39cf62e4665f3ff22e6e62b4c7b0f51ea4e0a2304f854782df03591768b0bdd"
+  },
+  {
+   "file": "muzhskaya-gigiena-i-kosmetika.json",
+   "category": "Мужская гигиена и косметика",
+   "count": 32,
+   "bytes": 21258,
+   "sha256": "65fe472dab2b721e565dcd886a6084bdd6d3966959370be2a2586a1906d0f077"
+  },
+  {
+   "file": "hleb-i-vypechka.json",
+   "category": "Хлеб и выпечка",
+   "count": 31,
+   "bytes": 17189,
+   "sha256": "5c81624e5495eeef8ec822743de785a78c79e249fc275e7f5f4d6496ff882beb"
+  },
+  {
+   "file": "kvas.json",
+   "category": "Квас",
+   "count": 29,
+   "bytes": 16275,
+   "sha256": "426a39479f5f17323a4014f5b0a4e607239aa5febbfeaed860bb3b9315bfc333"
+  },
+  {
+   "file": "ustroystva-elektropitaniya.json",
+   "category": "Устройства электропитания",
+   "count": 28,
+   "bytes": 18281,
+   "sha256": "aa1cbc681424c04563c9d284ced6edbb17fd71ee1839d3d71700eb3d62cd34d9"
+  },
+  {
+   "file": "vitaminy-i-bady.json",
+   "category": "Витамины и Бады",
+   "count": 26,
+   "bytes": 16844,
+   "sha256": "454fb38ce25d1acde111fec3184c6f3b6417caade23d21f971b5cf9f4ec5b830"
+  },
+  {
+   "file": "dlya-doma-i-uyuta.json",
+   "category": "Для дома и уюта",
+   "count": 26,
+   "bytes": 15745,
+   "sha256": "9780fd3f9b74cff35087445b45d510fad66da15c8609ad780376147c5ca3e6fd"
+  },
+  {
+   "file": "keksy-kruassany-pirogi.json",
+   "category": "Кексы, круассаны, пироги",
+   "count": 25,
+   "bytes": 14057,
+   "sha256": "edeef95494cc594530a1815d0da3830120b1662f5bd011896891ca68b7514c56"
+  },
+  {
+   "file": "veganskie-produkty.json",
+   "category": "Веганские продукты",
+   "count": 25,
+   "bytes": 16132,
+   "sha256": "0bea0e90afccea277367c3ca685aa15d76225d4c7f3ff79ef3da66013b72be60"
+  },
+  {
+   "file": "funkcionalnye-napitki.json",
+   "category": "Функциональные напитки",
+   "count": 25,
+   "bytes": 15575,
+   "sha256": "94f8fe034dcbe86429573004331beb56bc6835ff9a4532cbf1d720b27096a048"
+  },
+  {
+   "file": "sladosti-vypechka.json",
+   "category": "Сладости, выпечка",
+   "count": 24,
+   "bytes": 15272,
+   "sha256": "78a368f1fb13f1059c4bddf68b3b4fb3e25f4e7bc652999aa95ec99c13217d24"
+  },
+  {
+   "file": "napitki-bez-sahara.json",
+   "category": "Напитки без сахара",
+   "count": 23,
+   "bytes": 15369,
+   "sha256": "c722296e147b3899da17206321b0f7e7897fdfd33b485a9ab0887664b775f3c7"
+  },
+  {
+   "file": "sguschenoe-moloko.json",
+   "category": "Сгущеное молоко",
+   "count": 23,
+   "bytes": 15576,
+   "sha256": "230c78380c13a687d41886136dc1a818f272e49530b452d940a7105a6c644f0d"
+  },
+  {
+   "file": "dlya-shashlyka-barbekyu.json",
+   "category": "Для шашлыка, барбекю",
+   "count": 23,
+   "bytes": 14260,
+   "sha256": "165fb52bc825fda5224151b86a3705304b303fdc701cf6f8e74bb2ac6f58172a"
+  },
+  {
+   "file": "polukopchenaya.json",
+   "category": "Полукопченая",
+   "count": 22,
+   "bytes": 12953,
+   "sha256": "b107d611f94780705eb430aaf85396208f0e6e7710ea6406f8c8a6fd766b07e0"
+  },
+  {
+   "file": "farsh.json",
+   "category": "Фарш",
+   "count": 22,
+   "bytes": 12353,
+   "sha256": "3aa735a6dce64b418596fd6a1b870185a789962d22b6f9c597e2c1205f2d59f2"
+  },
+  {
+   "file": "syvorotochnye-napitki.json",
+   "category": "Сывороточные напитки",
+   "count": 22,
+   "bytes": 14950,
+   "sha256": "72f040dc06a09045841979c7a270efea694c8069e730305146d231d8323fe8bc"
+  },
+  {
+   "file": "zamorozhennye-produkty.json",
+   "category": "Замороженные продукты",
+   "count": 21,
+   "bytes": 13089,
+   "sha256": "ae97b1068d9009a7da568c7e67c3e292a0653cfbe5f861456c6546cdff4703ac"
+  },
+  {
+   "file": "myasnye-polufabrikaty.json",
+   "category": "Мясные полуфабрикаты",
+   "count": 21,
+   "bytes": 12007,
+   "sha256": "09d8924bdedd11181ae6960e204937bd41230a4588c22b8d5eb046fec47dfaf6"
+  },
+  {
+   "file": "smesi-dlya-napitkov-desertov.json",
+   "category": "Смеси для напитков, десертов",
+   "count": 21,
+   "bytes": 12135,
+   "sha256": "dd1d9fd6ac28eefc8d2d7636d42bdadb00c62a71f3dfe3bfb465c52289c3b4ff"
+  },
+  {
+   "file": "krupy-bobovye.json",
+   "category": "Крупы, бобовые",
+   "count": 20,
+   "bytes": 11363,
+   "sha256": "288692175b1e3d40a8075b3ab6f0b89df4399d771f0d812d6c10fa4bc4360dc4"
+  },
+  {
+   "file": "kulinariya-i-pekarnya.json",
+   "category": "Кулинария и пекарня",
+   "count": 20,
+   "bytes": 11717,
+   "sha256": "fd7c90df3286876e0477c402c485c6476cca3758a6f189703923f45e8c8f1549"
+  },
+  {
+   "file": "prigotovlenie-napitkov.json",
+   "category": "Приготовление напитков",
+   "count": 20,
+   "bytes": 13208,
+   "sha256": "e3220bafe8427def2ba2e8798199c7762c62991400b9bb59025cd72a03617f5b"
+  },
+  {
+   "file": "sneki-deserty.json",
+   "category": "Снеки, десерты",
+   "count": 20,
+   "bytes": 11140,
+   "sha256": "c497df145df3254b062e603a780f4fcbc1f2f0ce098a5f5f996abba1ddb096dd"
+  },
+  {
+   "file": "healthy-food.json",
+   "category": "Healthy Food",
+   "count": 20,
+   "bytes": 12570,
+   "sha256": "ce64d76b316d08a06e19fbcdb5232f5bf847163a70f9c1e110133d94bdbbc905"
+  },
+  {
+   "file": "dlya-bara.json",
+   "category": "Для бара",
+   "count": 19,
+   "bytes": 11706,
+   "sha256": "cb244c6492b9afd459489617ef7f07240bca121de947ec27f423a17bbad57d41"
+  },
+  {
+   "file": "lakomstva.json",
+   "category": "Лакомства",
+   "count": 19,
+   "bytes": 11650,
+   "sha256": "3991ba8b5b1abb7b3ab4a73cc4aa0d382b26385d889a28cd3cafeadf02cc0e96"
+  },
+  {
+   "file": "kuhonnyy-tekstil.json",
+   "category": "Кухонный текстиль",
+   "count": 19,
+   "bytes": 11681,
+   "sha256": "06ff14cafdcf45b91a83740941f5072c941e2e3cf58c3c594e20f09049dfb0e7"
+  },
+  {
+   "file": "detskie-sneki.json",
+   "category": "Детские снеки",
+   "count": 19,
+   "bytes": 11991,
+   "sha256": "d17532ea46d355e9d5711ea820d0d38d6443a534d25ea659983bcc2990b543c7"
+  },
+  {
+   "file": "moreprodukty-v-rassole-masle.json",
+   "category": "Морепродукты в рассоле, масле",
+   "count": 18,
+   "bytes": 11182,
+   "sha256": "1672091e19f67c359a1a8e88ddf10ab25f0773bdce5596cfcc09d480d2de5105"
+  },
+  {
+   "file": "knigi-uchebniki-raskraski.json",
+   "category": "Книги, учебники, раскраски",
+   "count": 18,
+   "bytes": 11656,
+   "sha256": "66da703c5fe9b5af3848f6f3bac8f9cb1bdd532a296d280c60bfae00611050f1"
+  },
+  {
+   "file": "pashtety-holodcy-salo.json",
+   "category": "Паштеты, холодцы, сало",
+   "count": 18,
+   "bytes": 10273,
+   "sha256": "4bfa0be492c6c815369033a8091ac286e506a8a165a82224273aa2a464dde7e7"
+  },
+  {
+   "file": "tovary-dlya-detey.json",
+   "category": "Товары для детей",
+   "count": 16,
+   "bytes": 11272,
+   "sha256": "2d5994ba496cadb7fa9aedc59696d138b3c57db5debd66a67a344c8219c48b74"
+  },
+  {
+   "file": "uhod-za-licom.json",
+   "category": "Уход за лицом",
+   "count": 16,
+   "bytes": 10485,
+   "sha256": "488fcc4394daa735987b53064dca5cebd07151af81b02fc475866fde06ac53bb"
+  },
+  {
+   "file": "tovary-dlya-remonta.json",
+   "category": "Товары для ремонта",
+   "count": 16,
+   "bytes": 9859,
+   "sha256": "7f16bd9009ef1f0b6d9670a2805faca228556ffa54c8a2e4969830e2c3d16be8"
+  },
+  {
+   "file": "aziatskaya-kuhnya.json",
+   "category": "Азиатская кухня",
+   "count": 16,
+   "bytes": 9999,
+   "sha256": "ab45f48a7174e56df3b04910f25f507f8523de3ef7f06e16b22f598a891d1b11"
+  },
+  {
+   "file": "sushki-pechene-suhari.json",
+   "category": "Сушки, печенье, сухари",
+   "count": 15,
+   "bytes": 9074,
+   "sha256": "bdcab7ecd5c1adfe8308407fff4fdf932afff8edc1cbce16fa295f0794dc9bd1"
+  },
+  {
+   "file": "rassolnye.json",
+   "category": "Рассольные",
+   "count": 15,
+   "bytes": 9065,
+   "sha256": "a5246253759fe34715cb1c409fb0c98826283e6c5bf4f1e97825ee9470f5dbe7"
+  },
+  {
+   "file": "zelen-i-salaty.json",
+   "category": "Зелень и салаты",
+   "count": 14,
+   "bytes": 7348,
+   "sha256": "3519269e49197829e5bf669d51918fd720d58fcae9d9de747dd125478ee0ff11"
+  },
+  {
+   "file": "kukuruznye-sneki.json",
+   "category": "Кукурузные снеки",
+   "count": 14,
+   "bytes": 8829,
+   "sha256": "b090184efb1b756eb5372749cfa06eea8e1967ef70a29e05cec1912887fd6135"
+  },
+  {
+   "file": "pashalnaya-produkciya.json",
+   "category": "Пасхальная продукция",
+   "count": 13,
+   "bytes": 8557,
+   "sha256": "2fac8f3d8b248c3dc006339a345e0fdfae187bf495ca1b8ec0ca0655078470a6"
+  },
+  {
+   "file": "urologicheskie-tovary.json",
+   "category": "Урологические товары",
+   "count": 12,
+   "bytes": 7141,
+   "sha256": "1b5cab1e1fca406cec55204f8ba6e1625cc347fbc3d1eae41d5a97f7a40c0325"
+  },
+  {
+   "file": "napitki-proizvodstva-lenty.json",
+   "category": "Напитки производства Ленты",
+   "count": 12,
+   "bytes": 8284,
+   "sha256": "cb515ad7cbb81b96e490e7328b0799204b7b54900de8e730c21065921a26e501"
+  },
+  {
+   "file": "apteka-kontracepciya.json",
+   "category": "Аптека, контрацепция",
+   "count": 12,
+   "bytes": 7933,
+   "sha256": "0f33fdd7872349076f37271dc4111add44010ac24537f38ba188693b87bf82bd"
+  },
+  {
+   "file": "dlya-grilya.json",
+   "category": "Для гриля",
+   "count": 12,
+   "bytes": 6684,
+   "sha256": "984bb0baca1feed7aa166e2331a12d58656eebeb510893eeadb0180a71b502be"
+  },
+  {
+   "file": "chistyaschie-moyuschie-sredstva.json",
+   "category": "Чистящие, моющие средства",
+   "count": 11,
+   "bytes": 7595,
+   "sha256": "e789bd441897a31eb2e63de47ebc5c6cf90f09927c98e1f965e778a61d13deda"
+  },
+  {
+   "file": "sredstva-ot-nasekomyh.json",
+   "category": "Средства от насекомых",
+   "count": 11,
+   "bytes": 7594,
+   "sha256": "84d7aa867cbb9f5a8fa1f107bd7c8387ae287c1f56aea4ff06930ad2f43553ba"
+  },
+  {
+   "file": "rybnye-polufabrikaty.json",
+   "category": "Рыбные полуфабрикаты",
+   "count": 11,
+   "bytes": 6590,
+   "sha256": "e9652ac8032dcbad01b4359f80baf0a1e26aa49ee7c8a1753bdf64a31dae18e0"
+  },
+  {
+   "file": "bekon.json",
+   "category": "Бекон",
+   "count": 11,
+   "bytes": 6357,
+   "sha256": "e6d8e0137c3f01e1e0597a1b19ae5c328ff7983f702af7a68185458738b6040d"
+  },
+  {
+   "file": "myasnye-delikatesy.json",
+   "category": "Мясные деликатесы",
+   "count": 11,
+   "bytes": 6818,
+   "sha256": "6f1db19081ad8e3ec8f0b86557c60ead32b47c4ac7a3a72d02ba4b5a3b53254d"
+  },
+  {
+   "file": "hlebcy-tartaletki.json",
+   "category": "Хлебцы, тарталетки",
+   "count": 11,
+   "bytes": 5575,
+   "sha256": "519aaec9d5456ab262a0e842a9f38ccd401a070ec7bc10a78a56b40ca04042df"
+  },
+  {
+   "file": "sezonnye-sladosti.json",
+   "category": "Сезонные сладости",
+   "count": 11,
+   "bytes": 6468,
+   "sha256": "15320f3c3d98c9e04a4e1d4f4bbb49e4323ef61a6d88b488866be0b967ecc76c"
+  },
+  {
+   "file": "krabovye-palochki-myaso.json",
+   "category": "Крабовые палочки, мясо",
+   "count": 10,
+   "bytes": 6344,
+   "sha256": "0daef9477431ae165122092b2b3d7b8465357148802b14a1c11925d9c226eb72"
+  },
+  {
+   "file": "uksus-balzamik.json",
+   "category": "Уксус, бальзамик",
+   "count": 10,
+   "bytes": 5971,
+   "sha256": "f9c0f4eca502ffaa32c92870f3352a25d3389ac400040669cd4c1dc5e85d155e"
+  },
+  {
+   "file": "bytovaya-himiya.json",
+   "category": "Бытовая химия",
+   "count": 9,
+   "bytes": 5755,
+   "sha256": "0f46ae7a2d56971391dab304733ed9e8ac6819c595a9cc3464f1ffe2a698a644"
+  },
+  {
+   "file": "shokolad-i-batonchiki.json",
+   "category": "Шоколад и батончики",
+   "count": 9,
+   "bytes": 5676,
+   "sha256": "b999605533b70c637284e1d2162362f75ff67368694a2256be437c2717e03b21"
+  },
+  {
+   "file": "filtry-dlya-vody.json",
+   "category": "Фильтры для воды",
+   "count": 9,
+   "bytes": 5971,
+   "sha256": "5488b600fc0b5ceb69dd990842a6464af9457992fe710500a7d438b2f0e09d63"
+  },
+  {
+   "file": "osobenno-vygodno.json",
+   "category": "Особенно выгодно",
+   "count": 8,
+   "bytes": 5127,
+   "sha256": "1e7a83106729558936a64f5d320615b132ff59ec4d5a7783eff203cef2749397"
+  },
+  {
+   "file": "odezhda-i-aksessuary.json",
+   "category": "Одежда и аксессуары",
+   "count": 8,
+   "bytes": 5154,
+   "sha256": "705d3af4f4e4accedab532d810a5981103c0cb0ae5c521c7223f638c67e1f8ef"
+  },
+  {
+   "file": "kosmetika-i-gigiena.json",
+   "category": "Косметика и гигиена",
+   "count": 8,
+   "bytes": 5254,
+   "sha256": "0a774e55072491a3f370165287790c0adc8758b3900a34452b78c3eda40e4fce"
+  },
+  {
+   "file": "molochnye-produkty-yayco.json",
+   "category": "Молочные продукты, яйцо",
+   "count": 7,
+   "bytes": 4615,
+   "sha256": "2d54566dc882f60018ab38cad8933ad0ded83ad846dda33b5ca85d042fc9b487"
+  },
+  {
+   "file": "syrovyalennaya.json",
+   "category": "Сыровяленная",
+   "count": 7,
+   "bytes": 4157,
+   "sha256": "d98cd9225c9d90905ac0fb0cf969781f16b560277995902b10081282ebd45625"
+  },
+  {
+   "file": "dlya-kulinarii.json",
+   "category": "Для кулинарии",
+   "count": 7,
+   "bytes": 4033,
+   "sha256": "caca8f3a7a99b75c0c6b2eef19df4e4501e7492a0da6bbed259a01f6e6a88d63"
+  },
+  {
+   "file": "domashniy-tekstil.json",
+   "category": "Домашний текстиль",
+   "count": 6,
+   "bytes": 4232,
+   "sha256": "0b1ddc90e2c5ae4c3dd7d2f6bc6b79eeb7b1be7cdc286a2a713aa3f85668792a"
+  },
+  {
+   "file": "sahar-sol.json",
+   "category": "Сахар, соль",
+   "count": 6,
+   "bytes": 3838,
+   "sha256": "af73d96541069ad6623e9d9bdea839d58b22de4b4f5d63637e9714ac75c4ef64"
+  },
+  {
+   "file": "uhod-za-telom.json",
+   "category": "Уход за телом",
+   "count": 6,
+   "bytes": 3972,
+   "sha256": "fd0f85dedb151972b4e3693b693b98c616571c84c4811f7d315b68dbe44459ed"
+  },
+  {
+   "file": "halyal.json",
+   "category": "Халяль",
+   "count": 6,
+   "bytes": 3356,
+   "sha256": "9ae65c2fadaed5aae223419fd1b6db979f6673c0ab038ea6027401a20470d2d3"
+  },
+  {
+   "file": "multimedia-i-aksessuary.json",
+   "category": "Мультимедиа и аксессуары",
+   "count": 6,
+   "bytes": 3991,
+   "sha256": "48f5c9b7aacb35d9c9f4fa5cd6e4ac5f8054724c2c39ae70f8fe4e529946f654"
+  },
+  {
+   "file": "vostochnye-sladosti.json",
+   "category": "Восточные сладости",
+   "count": 6,
+   "bytes": 3680,
+   "sha256": "8b16fe832b131994e05a1f80e13d88a04f803e721ce2d822b252f3666b3d00ab"
+  },
+  {
+   "file": "fermerskie-produkty.json",
+   "category": "Фермерские продукты",
+   "count": 6,
+   "bytes": 3656,
+   "sha256": "295aa8c3c0ee99c0e6bdbc7cced6d8a3d624eab5f27bb3d942fdff64b2b4e063"
+  },
+  {
+   "file": "detskaya-molochnaya-produkciya.json",
+   "category": "Детская молочная продукция",
+   "count": 6,
+   "bytes": 4145,
+   "sha256": "c54f733282505b3140fa50398e1cdd02b8ab6e2e102df9153a060dd340783d16"
+  },
+  {
+   "file": "gigiena-uhod-za-rebenkom.json",
+   "category": "Гигиена, уход за ребенком",
+   "count": 5,
+   "bytes": 3246,
+   "sha256": "b7799b97e0557b3dd2713638579eee56b0b084162696e0486a1f5d1f57af73ea"
+  },
+  {
+   "file": "tvorog-tvorozhnaya-massa.json",
+   "category": "Творог, творожная масса",
+   "count": 5,
+   "bytes": 3359,
+   "sha256": "a6d1df2a5d0996ccd51894f7d5b01f87e089e2603bcd2dbfad7c1c7d501be4b9"
+  },
+  {
+   "file": "konservy.json",
+   "category": "Консервы",
+   "count": 5,
+   "bytes": 2852,
+   "sha256": "473baa581765095c570407dccbb4bc5dda2f3bbe36ed6458156c06934b83cee0"
+  },
+  {
+   "file": "varenaya-kolbasa.json",
+   "category": "Вареная колбаса",
+   "count": 5,
+   "bytes": 3281,
+   "sha256": "d269eed4eaefc62db2807267ad024974881b4d7bac5b6d23ebe5b9cca8998612"
+  },
+  {
+   "file": "kancelyarskie-melochi.json",
+   "category": "Канцелярские мелочи",
+   "count": 4,
+   "bytes": 2730,
+   "sha256": "ee1a115777108e997d7a28a76210692e74787a5ce5a98a34071d061b70909aab"
+  },
+  {
+   "file": "sahar-i-korica.json",
+   "category": "Сахар и корица",
+   "count": 4,
+   "bytes": 2474,
+   "sha256": "e55b91820a658964975702e33b7423eadf40b040137322e746482bf8e1506ded"
+  },
+  {
+   "file": "krakovskaya-livernaya-kolbaski.json",
+   "category": "Краковская, ливерная, колбаски",
+   "count": 4,
+   "bytes": 2500,
+   "sha256": "6f873fc05750c4f0b155ab83f55acea339ae4fa3e5f991acdfcdf041da1e576a"
+  },
+  {
+   "file": "bezalkogolnoe-pivo-vino.json",
+   "category": "Безалкогольное пиво, вино",
+   "count": 4,
+   "bytes": 2758,
+   "sha256": "c5a18756501beaa99c5c0820672c48bfad0e87440f015a62d292627902e3f590"
+  },
+  {
+   "file": "detskie-smesi.json",
+   "category": "Детские смеси",
+   "count": 3,
+   "bytes": 2006,
+   "sha256": "a3eaa3e6131848c299cce38999e0bf4fdd21d5b1cca059a08105999354aeadd7"
+  },
+  {
+   "file": "ryba-solenaya-kopchenaya.json",
+   "category": "Рыба соленая, копченая",
+   "count": 3,
+   "bytes": 2161,
+   "sha256": "bed6d0056f28110886c8da807bb32781da372fb81d994e7be43b7b88445ac330"
+  },
+  {
+   "file": "diabeticheskie-tovary.json",
+   "category": "Диабетические товары",
+   "count": 3,
+   "bytes": 2235,
+   "sha256": "9b4af5a6f933d52d1eafc178d1f1575a684dfe4ed516ba099adebd5d7cc0919f"
+  },
+  {
+   "file": "myasnye-konservy.json",
+   "category": "Мясные консервы",
+   "count": 3,
+   "bytes": 1983,
+   "sha256": "9dc6972cfc45da592f6ecba9acb3d8bcd2205fd3b3371af58a7f7480c109ad73"
+  },
+  {
+   "file": "sladosti-sneki.json",
+   "category": "Сладости, снеки",
+   "count": 3,
+   "bytes": 2085,
+   "sha256": "37357d735780e068a2520ed7bb1d60fecf419621806f5d7a5accc41fcdae38d6"
+  },
+  {
+   "file": "dieticheskie-sneki.json",
+   "category": "Диетические снеки",
+   "count": 3,
+   "bytes": 2065,
+   "sha256": "107ce0cee7a9d336e222b256be0a2f3b54cbed6eb20b6e99a1879e2088b1ed40"
+  },
+  {
+   "file": "morskaya-kapusta-sushi.json",
+   "category": "Морская капуста, суши",
+   "count": 3,
+   "bytes": 2046,
+   "sha256": "c38a89102e1c23a67c14663b39c145eb4c0538592893f171e22f9b7c3345e8f2"
+  },
+  {
+   "file": "detskie-napitki.json",
+   "category": "Детские напитки",
+   "count": 3,
+   "bytes": 2220,
+   "sha256": "5f5adfc046864548411c06db29d173904a6ebf4220039f354c28220fd06926c6"
+  },
+  {
+   "file": "myasnye-sneki.json",
+   "category": "Мясные снеки",
+   "count": 3,
+   "bytes": 1886,
+   "sha256": "2af9d5fb6e8730c5abe200f1839eee478302e9689a68d335e8dba46de5066f88"
+  },
+  {
+   "file": "zaryad-energii.json",
+   "category": "Заряд энергии",
+   "count": 2,
+   "bytes": 1703,
+   "sha256": "23d1210b1d63a288f2b82c912d3c6ef4749d674839e2b7341367b451ea484b65"
+  },
+  {
+   "file": "smeshivanie-i-izmelchenie.json",
+   "category": "Смешивание и измельчение",
+   "count": 2,
+   "bytes": 1748,
+   "sha256": "dc84aa993fc279b0e285a3c0b7001a5068c52cff52fe941951de2e034fb0dade"
+  },
+  {
+   "file": "ketchup-tomatnaya-pasta.json",
+   "category": "Кетчуп, томатная паста",
+   "count": 2,
+   "bytes": 1675,
+   "sha256": "95ce0604172e1ffad7b5fc473598a64b80fa0057bebc9af317bcda44683f4937"
+  },
+  {
+   "file": "odnorazovaya-posuda.json",
+   "category": "Одноразовая посуда",
+   "count": 2,
+   "bytes": 1427,
+   "sha256": "c80655a16183dff9716f01edc3eaf792b811cbaab2b897256dbb0684e87787d2"
+  },
+  {
+   "file": "gotovim-na-ogne.json",
+   "category": "Готовим на огне",
+   "count": 2,
+   "bytes": 1420,
+   "sha256": "3de458dc8eb1ff1a33f7e1bafd32a429cfb8d84124480e8c18d40a702a391a7a"
+  },
+  {
+   "file": "konservaciya.json",
+   "category": "Консервация",
+   "count": 2,
+   "bytes": 1394,
+   "sha256": "b7237ebb6a2041eefa4ec5f2779b655b0c083138040da047c35f3c3f0288b555"
+  },
+  {
+   "file": "ovoschi.json",
+   "category": "Овощи",
+   "count": 2,
+   "bytes": 1541,
+   "sha256": "b93ffc8871269f10d0c714b5e6428e9be4508d9732a3ed2df48d48545ff15b9e"
+  },
+  {
+   "file": "shkolnye-prinadlezhnosti.json",
+   "category": "Школьные принадлежности",
+   "count": 1,
+   "bytes": 916,
+   "sha256": "f136fcfbf014cf2fc0c6fcb22572c4108d3536693426267039a7abec40bbf5aa"
+  },
+  {
+   "file": "deserty-sneki.json",
+   "category": "Десерты, снеки",
+   "count": 1,
+   "bytes": 835,
+   "sha256": "bac8c5a1a9a62f50a9c52bf0fd6e194004833a54714e7e9c9693f0fef3ef93b6"
+  },
+  {
+   "file": "voda-napitki.json",
+   "category": "Вода, напитки",
+   "count": 1,
+   "bytes": 889,
+   "sha256": "7b9f5718b43b97ed2773a2542ad9c63ac0c8cc302e6b4f341c848c03b1f23ff7"
+  },
+  {
+   "file": "vysokiy-belok.json",
+   "category": "Высокий белок",
+   "count": 1,
+   "bytes": 856,
+   "sha256": "a365ef17df1be4c138c47606d1a654bfd639d47dbed049abc5dd478b07a8805a"
+  },
+  {
+   "file": "sneki-pechene-dlya-malyshey.json",
+   "category": "Снеки, печенье для малышей",
+   "count": 1,
+   "bytes": 835,
+   "sha256": "d28ce4728f949d5518a885145de1c017b9e877cfde5396a6adc323c997452d79"
+  },
+  {
+   "file": "med-varene-siropy.json",
+   "category": "Мед, варенье, сиропы",
+   "count": 1,
+   "bytes": 851,
+   "sha256": "311db9619a0c8206908e4368560b1ecd794101165609b9f13f16cfab4d51a11f"
+  }
+ ]
+}
